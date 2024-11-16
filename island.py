@@ -25,7 +25,7 @@ class Island:
         my_map.islands.remove(other)
 
     def select(self):
-        print(self.average_height())
+        #print(self.average_height())
         for tile in self.tiles.values():
             tile.select()
 

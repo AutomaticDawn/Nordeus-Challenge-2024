@@ -1,0 +1,23 @@
+This was my first time using Pygame to build a game so I was enjoying learning things as I was building the game.
+I am proficient at Unity and Godot and I was able to transfer my skills of gamedev to this project easily.
+
+Although an interesting bug appeared at the end of development.
+Whenever I would run the game, another game would appear where you would have to click the screen to collect balls.
+I was confused how would this even happen, as it was such a bizzare thing to happen.
+I looked through my code from start to finish but after debugging figured out that it was happening even before one line of my code had run.
+After almost an hour, I figured it out.
+It turned out that I had accidentally imported an example game from the Pygame library, and I guess it runs on its own once imported.
+The mistake happened because one of my variables had the same name as the example game and my editor added the import by itself at one point.
+The fix was easy, just removing the unnecessary import.
+
+For testing, I would make sure that the algorithm for determining average height of the islands was functional by testing a few edge cases.
+Also, it would be pretty important that there is a clear destinction between different heights which are represented by different colors.
+Lastly, making sure the clicks on the islands work correctly.
+
+Additional features I would add would be:
+- Procedural map generator and bigger maps, it would add a lot more replayability 
+- Many gamemodes, always fun
+- Cleaner user interface, it would be easier to do it in Unity for example, than Pygame
+
+I think I would remove lives entirely, and just replace them with losing score. 
+I see this as a relaxing guessing game, and the concept of lives adds unnecessary stress, even if its little.
